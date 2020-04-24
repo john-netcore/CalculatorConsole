@@ -6,7 +6,8 @@ namespace CalculatorConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var calculator = new Calculator.BL.Calculator();
+            Console.WriteLine(calculator.Calculate(10, 5, "/"));
         }
     }
 }
