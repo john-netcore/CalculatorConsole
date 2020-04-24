@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+    <ItemGroup>
+     <Reference Include="Calculator.BL">
+       <HintPath>dlls\Calculator.BL.dll</HintPath>
+     </Reference>
+    </ItemGroup>
+
 </Project>
